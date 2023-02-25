@@ -8,7 +8,7 @@ public class EntryController {
     @GetMapping(path= "/home")
     public String hello() {
         System.out.print("Hello!"); 
-        return "Hello";
+        return "Hello world";
 
     }
 }
