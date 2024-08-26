@@ -7,7 +7,7 @@ public class EntryController {
     
     @GetMapping(path= "/home")
     public String hello() {
-        System.out.print("Hello! Swami"); 
+        System.out.print("Hello! Swaminathan!!"); 
         return "Hello world Swaminathan Venkatachalam!!";
 
     }
